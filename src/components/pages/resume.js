@@ -1,10 +1,10 @@
 import React from 'react';
-// import testing from '../../assets/files/DeLucaResume.pdf'
+import pdf from '../../assets/files/DeLucaResume.pdf'
 
 export default function Resume() {
     return (
         <div>
-            <a href='../../assets/files/DeLucaResume.pdf' download>Download Resume</a>
+            <a href={pdf} download>Download Resume</a>
             <h2>Technical Skills</h2>
             <ul class="list-group">
                 <li className="list-group-item">HTML</li>
