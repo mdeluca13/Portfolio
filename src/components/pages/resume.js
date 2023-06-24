@@ -6,7 +6,7 @@ export default function Resume() {
         <div>
             <a href={pdf} download>Download Resume</a>
             <h2>Technical Skills</h2>
-            <ul class="list-group">
+            <ul className="list-group">
                 <li className="list-group-item">HTML</li>
                 <li className="list-group-item">CSS</li>
                 <li className="list-group-item">JavaScript</li>
