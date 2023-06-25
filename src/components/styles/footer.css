@@ -1,0 +1,16 @@
+.icon-foot {
+    list-style-type: none;
+    border: 0 !important;
+}
+
+.list-group-item {
+    background-color: #232931 !important;
+    border:0;
+}
+.hackerrank {
+    padding: 3px !important;
+}
+
+.icon-foot:hover {
+    opacity: 70%;
+}

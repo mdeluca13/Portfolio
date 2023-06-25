@@ -1,6 +1,3 @@
-body {
-    background-color:#232931;
-}
 * {
     background-color:#232931;
     box-sizing: border-box;
@@ -15,7 +12,6 @@ body {
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
     transition: all 1s ease;
-    /* height: 250px; */
 }
 
 /* adding brightening for hover */

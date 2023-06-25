@@ -1,0 +1,39 @@
+.header {
+    background-color: transparent;
+    display: inline;
+    font-size: 45px;
+}
+
+.nav-pills {
+    background-color: transparent;
+    display: inline;
+    float: right;
+    padding-top: 6px;
+    --bs-nav-pills-link-active-bg: aqua !important;
+    --bs-nav-pills-link-active-color: #232931 !important;
+}
+
+.nav-container {
+    background-color: transparent;
+    padding-top: 50px;
+}
+
+.container-two {
+    background-color: transparent;
+}
+
+.nav-item {
+    display:inline;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.background-div {
+    height: 160px;
+}
+
+.nav {
+    --bs-nav-link-color: white !important;
+    --bs-nav-link-hover-color: aqua !important;
+}
