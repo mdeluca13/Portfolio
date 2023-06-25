@@ -9,6 +9,8 @@ import Resume from './pages/resume';
 
 // Setting what to include in portfolio container for App() to render
 export default function PortfolioContainer() {
+  document.title = 'Megan De Luca Portfolio';
+  
   const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
