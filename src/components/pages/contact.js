@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import '../styles/contact.css';
 
 function Contact() {
     const [name, setName] = useState('');
@@ -45,30 +46,48 @@ function Contact() {
     };
 
     return (
-        <div>
+        <div className='contact-div'>
+            <h1 className='contact-header'>Contact Me</h1>
             <form className="form">
-                <input
-                    value={name}
-                    name="name"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Name"
-                />
-                <input
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="email"
-                    placeholder="Email"
-                />
-                <input
-                    value={message}
-                    name="message"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="Message"
-                />
-                <button type="button" onClick={handleFormSubmit}>Submit</button>
+                <div className='form-group'>
+                    <label for="nameInput">Name</label>
+                    <input
+                        value={name}
+                        name="name"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="Enter Name"
+                        className='form-control'
+                    />
+                </div>
+                
+                <div className='form-group'>
+                    <label for="emailInput">Email address</label>
+                    <input
+                        value={email}
+                        name="email"
+                        onChange={handleInputChange}
+                        type="email"
+                        placeholder="Enter Email"
+                        className='form-control'
+                    />
+                </div>
+                
+                <div className='form-group'>
+                    <label for='messageInput'>Your Message</label>
+                    <textarea
+                        value={message}
+                        name="message"
+                        onChange={handleInputChange}
+                        type="text"
+                        placeholder="Message"
+                        className='form-control'
+                    />
+                </div>
+                <div className='btn-div'>
+                    <button type="button" className='btn' onClick={handleFormSubmit}>Submit</button>
+                </div>
+                
             </form>
             {errorMessage && (
                 <div>

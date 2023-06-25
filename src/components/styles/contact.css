@@ -1,0 +1,35 @@
+.btn {
+    background-color: aqua !important;
+    opacity: 80%;
+    margin: 10px !important;
+}
+
+.btn:hover {
+    opacity: 100%;
+    color: #232931 !important;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+.contact-header {
+    padding: 10px;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+.alert-success {
+    margin: 10px !important;
+}
+
+.contact-div {
+    margin: 0px 100px
+}
+
+.btn-div {
+    text-align: center;
+}
