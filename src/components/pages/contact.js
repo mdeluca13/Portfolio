@@ -45,6 +45,7 @@ function Contact() {
         setName('');
         setEmail('');
         setMessage('');
+        setErrorMessage('');
         setSuccessMessage('Thank you for your message, Megan will reach out soon.')
     };
 
