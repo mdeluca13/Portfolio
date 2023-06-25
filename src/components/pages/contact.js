@@ -12,6 +12,28 @@ function Contact() {
     const [errorMessage, setErrorMessage] = useState('');
     const [successMessage, setSuccessMessage] = useState('');
 
+    const handleMouseLeave = (e) => {
+        setErrorMessage('');
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
+
+        if (inputType === 'name') {
+            if (!inputValue) {
+                setErrorMessage('A name is required.')
+            }
+        }
+        else if (inputType === 'email') {
+            if (!inputValue) {
+                setErrorMessage('An email is required.')
+            }
+        } else if (inputType === 'message') {
+            if (!inputValue) {
+                setErrorMessage('A message is required.')
+            }
+        } 
+    };
+
     const handleInputChange = (e) => {
         const { target } = e;
         const inputType = target.name;
@@ -24,6 +46,7 @@ function Contact() {
         } else if (inputType === 'message') {
         setMessage(inputValue);
         }
+        setErrorMessage('');
         setSuccessMessage('');
     };
 
@@ -63,6 +86,7 @@ function Contact() {
                         type="text"
                         placeholder="Enter Name"
                         className='form-control'
+                        onMouseLeave={handleMouseLeave}
                     />
                 </div>
                 
@@ -75,6 +99,7 @@ function Contact() {
                         type="email"
                         placeholder="Enter Email"
                         className='form-control'
+                        onMouseLeave={handleMouseLeave}
                     />
                 </div>
                 
@@ -87,6 +112,7 @@ function Contact() {
                         type="text"
                         placeholder="Message"
                         className='form-control'
+                        onMouseLeave={handleMouseLeave}
                     />
                 </div>
                 <div className='btn-div'>
