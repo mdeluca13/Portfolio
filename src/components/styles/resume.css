@@ -1,0 +1,44 @@
+.resume-header {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.skill {
+    color:aliceblue !important;
+    width: 170px;
+    text-align: center;
+    border: solid 1px !important;
+    border-color: aliceblue !important;
+    border-radius: 20px !important;
+    padding: 10px !important;
+    margin: 10px !important;
+}
+
+.list-group {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    margin-top: 10px;
+    --bs-list-group-border: 5px !important;
+    --bs-list-group-border-color: aliceblue !important;
+}
+
+.skills-div {
+    margin: 5px 10px !important;
+    display:flex !important;
+    justify-content: center !important;
+}
+
+.skills-header {
+    text-align: center;
+    font-size: 25px;
+}
+
+.icon-download {
+    padding-bottom: 7px !important;
+}
+
+.resume-download {
+    text-align: center;
+}
