@@ -25,7 +25,6 @@
 .nav-pills {
     background-color: transparent;
     justify-content: end;
-    display: inline;
     float: right;
     padding-top: 6px;
     --bs-nav-pills-link-active-bg: aqua !important;
