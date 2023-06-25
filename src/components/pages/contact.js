@@ -24,6 +24,7 @@ function Contact() {
         } else if (inputType === 'message') {
         setMessage(inputValue);
         }
+        setSuccessMessage('');
     };
 
     const handleFormSubmit = (e) => {
