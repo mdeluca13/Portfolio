@@ -1,9 +1,11 @@
+// Adding necessary imports
 import React from 'react';
 import github from '../assets/images/githubFoot.png';
 import linkedIn from '../assets/images/linkedinFoot.png';
 import hackerRank from '../assets/images/hackerrankFoot.png';
 import './styles/footer.css';
 
+// Adding icons to footer
 function Footer () {
   return (
     <ul className='footer list-group list-group-horizontal justify-content-center'>

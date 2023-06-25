@@ -1,21 +1,26 @@
+/* Adding padding to footer */
+.footer {
+    padding: 10px 0 20px 0;
+}
+
+/* Setting background color for list items */
+.list-group-item {
+    background-color: #232931 !important;
+    border:0;
+}
+
+/* Styling footer icons */
 .icon-foot {
     list-style-type: none;
     border: 0 !important;
 }
 
-.list-group-item {
-    background-color: #232931 !important;
-    border:0;
-}
+/* Adding styling for hackerrank icon */
 .hackerrank {
     padding: 3px !important;
 }
 
+/* Styling hover for footer icons */
 .icon-foot:hover {
     opacity: 70%;
-}
-
-.footer {
-    padding: 10px 0 20px 0;
-
 }

@@ -1,35 +1,43 @@
+/* Adding margin to contact div */
+.contact-div {
+    margin: 0px 100px
+}
+
+/* Aligning text for contact header */
+.contact-header {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Adding padding to form group */
+.form-group {
+    padding: 10px;
+}
+
+/* Setting font for form labels */
+label {
+    font-size: 20px;
+}
+
+/* Aligning button to center */
+.btn-div {
+    text-align: center;
+}
+
+/* Styling submit button */
 .btn {
     background-color: aqua !important;
     opacity: 80%;
     margin: 10px !important;
 }
 
+/* Styling button hover */
 .btn:hover {
     opacity: 100%;
     color: #232931 !important;
 }
 
-.form-group {
-    padding: 10px;
-}
-
-.contact-header {
-    padding: 10px;
-    text-align: center;
-}
-
-label {
-    font-size: 20px;
-}
-
+/* Styling successMessage */
 .alert-success {
     margin: 10px !important;
-}
-
-.contact-div {
-    margin: 0px 100px
-}
-
-.btn-div {
-    text-align: center;
 }

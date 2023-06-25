@@ -1,19 +1,27 @@
-.profile {
-    height: 150px;
-    border-radius: 100%;
-}
-.about-header {
-    text-align: center;
-}
+/* Adding padding to About div */
 .about-div {
     padding:20px;
 }
+
+/* Aligning text to the center for header */
+.about-header {
+    text-align: center;
+}
+
+/* Aligning image to center */
 .image-div {
     text-align: center;
     padding: 10px;
 }
+
+/* Styling to profile image */
+.profile {
+    height: 150px;
+    border-radius: 100%;
+}
+
+/* Styling text for description */
 .description {
     text-align: justify;
     padding: 10px;
-
 }

@@ -1,3 +1,4 @@
+// Adding necessary imports
 import React, { useState } from 'react';
 import Nav from './nav';
 import Footer from './footer';
@@ -6,6 +7,7 @@ import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
 import Resume from './pages/resume';
 
+// Setting what to include in portfolio container for App() to render
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 

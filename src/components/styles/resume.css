@@ -1,19 +1,33 @@
+/* Centering resume header */
 .resume-header {
     margin-top: 15px;
     text-align: center;
 }
 
-.skill {
-    color:aliceblue !important;
-    width: 170px;
+/* Centering resume download text */
+.resume-download {
     text-align: center;
-    border: solid 1px !important;
-    border-color: aliceblue !important;
-    border-radius: 20px !important;
-    padding: 10px !important;
-    margin: 10px !important;
 }
 
+/* Styling download icon */
+.icon-download {
+    padding-bottom: 7px !important;
+}
+
+/* Centering technical skills header */
+.skills-header {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Styling skills div */
+.skills-div {
+    margin: 5px 10px !important;
+    display:flex !important;
+    justify-content: center !important;
+}
+
+/* Styling list group */
 .list-group {
     display: flex !important;
     flex-direction: row !important;
@@ -24,21 +38,14 @@
     --bs-list-group-border-color: aliceblue !important;
 }
 
-.skills-div {
-    margin: 5px 10px !important;
-    display:flex !important;
-    justify-content: center !important;
-}
-
-.skills-header {
+/* Styling technical skills display */
+.skill {
+    color:aliceblue !important;
+    width: 170px;
     text-align: center;
-    font-size: 25px;
-}
-
-.icon-download {
-    padding-bottom: 7px !important;
-}
-
-.resume-download {
-    text-align: center;
+    border: solid 1px !important;
+    border-color: aliceblue !important;
+    border-radius: 20px !important;
+    padding: 10px !important;
+    margin: 10px !important;
 }

@@ -1,11 +1,13 @@
-import techBlog from '../assets/images/tech-blog.jpg';
-import codingEmpireConference from '../assets/images/coding-empire-conference.jpg';
-import textEditor from '../assets/images/text-editor.jpg';
-import socialNetworkAPI from '../assets/images/social-network-api.jpg';
-import employeeTracker from '../assets/images/employee-tracker.jpg';
-import eCommerceBackend from '../assets/images/e-commerce-backend.jpg';
-import weatherDashboard from '../assets/images/weather-dashboard.jpg';
+// Importing project images
+import techBlog from '../../assets/images/tech-blog.jpg';
+import codingEmpireConference from '../../assets/images/coding-empire-conference.jpg';
+import textEditor from '../../assets/images/text-editor.jpg';
+import socialNetworkAPI from '../../assets/images/social-network-api.jpg';
+import employeeTracker from '../../assets/images/employee-tracker.jpg';
+import eCommerceBackend from '../../assets/images/e-commerce-backend.jpg';
+import weatherDashboard from '../../assets/images/weather-dashboard.jpg';
 
+// Adding all projects to display
 const projects = [
     {
         id: 1,
@@ -56,6 +58,6 @@ const projects = [
         github: 'https://github.com/mdeluca13/weather-dashboard',
         image: weatherDashboard,
     }
-  ];
+];
   
-  export default projects;
+export default projects;

@@ -1,3 +1,4 @@
+/* Styling for full site */
 * {
     background-color:#232931;
     box-sizing: border-box;
@@ -5,6 +6,20 @@
     color:aliceblue;
 }
 
+/* Centering portfolio header */
+.portfolio-header {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Adding styling for card */
+.card {
+    border: 0 !important;
+    border-radius: 15px !important;
+   
+}
+
+/* Styling for project image */
 .project-image {
     filter: brightness(60%);
     -webkit-transition: all 1s ease;
@@ -14,11 +29,23 @@
     transition: all 1s ease;
 }
 
-/* adding brightening for hover */
+/* Adding brightening for project image hover */
 .project-image:hover {
     filter: brightness(100%);
 }
 
+/* Adding border radius for all images */
+img {
+    border-radius: 15px;
+}
+
+/* Adding border radius for top of images */
+.card-img-top {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+/* Styling for project titles */
 h6 {
     position:absolute;
     bottom: 0%;
@@ -28,21 +55,7 @@ h6 {
     border-radius: 10px;
 }
 
+/* Styling github icon */
 .icon {
     background-color:aqua;
-}
-
-img {
-    border-radius: 15px;
-}
-
-.card {
-    border: 0 !important;
-    border-radius: 15px !important;
-   
-}
-
-.card-img-top {
-    border-top-left-radius: 15px !important;
-    border-top-right-radius: 15px !important;
 }

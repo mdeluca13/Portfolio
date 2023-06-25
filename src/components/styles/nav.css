@@ -1,9 +1,27 @@
+/* Setting height for header section */
+.background-div {
+    height: 160px;
+}
+
+/* Styling header */
 .header {
     background-color: transparent;
     display: inline;
     font-size: 45px;
 }
 
+/* Styling nav container */
+.nav-container {
+    background-color: transparent;
+    padding-top: 50px;
+}
+
+/* Setting transparent background for container */
+.container-two {
+    background-color: transparent;
+}
+
+/* Styling nav list */
 .nav-pills {
     background-color: transparent;
     justify-content: end;
@@ -14,15 +32,7 @@
     --bs-nav-pills-link-active-color: #232931 !important;
 }
 
-.nav-container {
-    background-color: transparent;
-    padding-top: 50px;
-}
-
-.container-two {
-    background-color: transparent;
-}
-
+/* Styling nav items */
 .nav-item {
     display:inline;
     background-color: transparent;
@@ -30,40 +40,41 @@
     font-weight: bolder;
 }
 
-.background-div {
-    height: 160px;
-}
-
+/* Styling nav colors */
 .nav {
     --bs-nav-link-color: white !important;
     --bs-nav-link-hover-color: aqua !important;
 }
 
 @media only screen and (max-width: 992px) {
+    /* Setting height for background div */
+    .background-div {
+        height: 240px;
+    }
     
+    /* Setting header for screen size */
     .header {
       display:block;
       text-align: center;
       font-size: 40px;
     }
 
-    .nav-item {
-        width: 100%;
-        background-color: transparent;
-        font-size: 15px;
+    /* Styling nav container */
+    .nav-container {
+        padding-top: 10px;
     }
 
+    /* Styling nav pills */
     .nav-pills {
         float:none;
         text-align: center;
         margin-bottom: 10px !important;
     }
 
-    .nav-container {
-        padding-top: 10px;
+    /* Styling nav items */
+    .nav-item {
+        width: 100%;
+        background-color: transparent;
+        font-size: 15px;
     }
-
-    .background-div {
-        height: 240px;
-    }
-  }
+}

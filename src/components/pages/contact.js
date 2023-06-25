@@ -1,7 +1,10 @@
+// Adding necessary imports
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import '../styles/contact.css';
 
+// Setting useStates for name, email, message, errorMessage and successMessage
+// and displaying header and contact form and messages for Contact page
 function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
