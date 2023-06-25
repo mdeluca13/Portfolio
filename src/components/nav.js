@@ -8,7 +8,7 @@ function Nav({ currentPage, handlePageChange }) {
       <div className='container nav-container'>
         <div className='container-two'>
           <h1 className='header'>Megan De Luca Portfolio</h1>
-          <ul className='nav nav-pills justify-content-end'>
+          <ul className='nav nav-pills'>
             <li className='nav-item'>
               <a
                 href="#about"
