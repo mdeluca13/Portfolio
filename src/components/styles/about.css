@@ -1,0 +1,19 @@
+.profile {
+    height: 150px;
+    border-radius: 100%;
+}
+.about-header {
+    text-align: center;
+}
+.about-div {
+    padding:20px;
+}
+.image-div {
+    text-align: center;
+    padding: 10px;
+}
+.description {
+    text-align: justify;
+    padding: 10px;
+
+}

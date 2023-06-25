@@ -6,7 +6,7 @@ import './styles/footer.css';
 
 function Footer () {
   return (
-    <ul className='list-group list-group-horizontal justify-content-center'>
+    <ul className='footer list-group list-group-horizontal justify-content-center'>
         <li className='icon-foot'><a href='https://github.com/mdeluca13' className='icon-foot list-group-item'><img src={github} style={{ height: 50 }} className='icon-foot' alt='github icon' /></a></li>
         <li className='icon-foot'><a href='https://www.linkedin.com/in/deluca-megan/' className='icon-foot list-group-item'><img src={linkedIn} style={{ height: 50 }} className='icon-foot' alt='linkedIn icon' /></a></li>
         <li className='icon-foot'><a href='https://www.hackerrank.com/megandeluca27?hr_r=1' className='icon-foot list-group-item hackerrank'><img src={hackerRank} style={{ height: 60}} className='icon-foot' alt='hackerRank icon' /></a></li>

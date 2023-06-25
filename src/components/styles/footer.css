@@ -14,3 +14,7 @@
 .icon-foot:hover {
     opacity: 70%;
 }
+
+.footer {
+    padding-top: 10px;
+}

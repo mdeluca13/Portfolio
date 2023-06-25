@@ -40,23 +40,28 @@
 }
 
 @media only screen and (max-width: 992px) {
+    
     .header {
       display:block;
       text-align: center;
       font-size: 40px;
     }
+
     .nav-item {
         width: 100%;
         background-color: transparent;
         font-size: 15px;
     }
+
     .nav-pills {
         float:none;
         text-align: center;
     }
+
     .nav-container {
         padding-top: 10px;
     }
+
     .background-div {
         height: max-content;
     }
