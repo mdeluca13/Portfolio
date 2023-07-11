@@ -1,6 +1,6 @@
 {
-  "name": "portfolio",
-  "homepage": "https://mdeluca13.github.io/portfolio",
+  "name": "Portfolio",
+  "homepage": "https://mdeluca13.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
