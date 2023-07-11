@@ -1,11 +1,13 @@
 // Adding necessary imports
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import emailjs from '@emailjs/browser';
 import '../styles/contact.css';
 
 // Setting useStates for name, email, message, errorMessage and successMessage
 // and displaying header and contact form and messages for Contact page
 function Contact() {
+    const form = useRef()
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -71,12 +73,19 @@ function Contact() {
         setMessage('');
         setErrorMessage('');
         setSuccessMessage('Thank you for your message, Megan will reach out soon.')
+
+        emailjs.sendForm('service_w3u74tl', 'template_7171rw8', form.current, 'ULn71A348h_4fmHcX')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
     };
 
     return (
         <div className='contact-div'>
             <h1 className='contact-header'>Contact Me</h1>
-            <form className="form">
+            <form ref={form} className="form">
                 <div className='form-group'>
                     <label for="nameInput">Name</label>
                     <input
