@@ -9,6 +9,21 @@
     text-align: center;
 }
 
+/* Styling resume link */
+.resume-link {
+    display: flex;
+    justify-content: center;
+    color:aliceblue;
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+/* Styling resume link and download icon hover */
+.resume-link:hover, .icon-download:hover {
+    opacity: 70%;
+}
+
 /* Styling download icon */
 .icon-download {
     padding-bottom: 7px !important;
@@ -48,4 +63,9 @@
     border-radius: 20px !important;
     padding: 10px !important;
     margin: 10px !important;
+}
+
+/* Styling technical skills display hover */
+.skill:hover {
+    opacity: 70%;
 }
