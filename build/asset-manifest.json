@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.9c8b8ff8.css",
-    "main.js": "/Portfolio/static/js/main.353871d7.js",
+    "main.js": "/Portfolio/static/js/main.e87948ec.js",
     "static/media/header.jpg": "/Portfolio/static/media/header.bb11142f24d04acbf91a.jpg",
     "static/media/social-network-api.jpg": "/Portfolio/static/media/social-network-api.f4bbe28d4ada8419efd4.jpg",
     "static/media/e-commerce-backend.jpg": "/Portfolio/static/media/e-commerce-backend.c30d6f4fdca34a43cc7a.jpg",
@@ -9,16 +9,16 @@
     "static/media/coding-empire-conference.jpg": "/Portfolio/static/media/coding-empire-conference.2aec79ef13779a8c0c4e.jpg",
     "static/media/weather-dashboard.jpg": "/Portfolio/static/media/weather-dashboard.af781a4ad645c3ba0dc9.jpg",
     "static/media/tech-blog.jpg": "/Portfolio/static/media/tech-blog.b71a66bfe54fe8dff0b9.jpg",
-    "static/media/DeLucaResume.pdf": "/Portfolio/static/media/DeLucaResume.a4651738e65dad6d85a1.pdf",
+    "static/media/DeLucaResume.pdf": "/Portfolio/static/media/DeLucaResume.40881a54f73abd1cf7b9.pdf",
     "static/media/text-editor.jpg": "/Portfolio/static/media/text-editor.d6f7227bc9c2c6a77671.jpg",
     "static/media/Megan.jpg": "/Portfolio/static/media/Megan.da2840456d1334249ad7.jpg",
     "static/media/github.svg": "/Portfolio/static/media/github.ebd452bf402237ef25876cdcac686676.svg",
     "index.html": "/Portfolio/index.html",
     "main.9c8b8ff8.css.map": "/Portfolio/static/css/main.9c8b8ff8.css.map",
-    "main.353871d7.js.map": "/Portfolio/static/js/main.353871d7.js.map"
+    "main.e87948ec.js.map": "/Portfolio/static/js/main.e87948ec.js.map"
   },
   "entrypoints": [
     "static/css/main.9c8b8ff8.css",
-    "static/js/main.353871d7.js"
+    "static/js/main.e87948ec.js"
   ]
 }

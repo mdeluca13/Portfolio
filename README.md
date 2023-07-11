@@ -12,7 +12,7 @@ n/a
 
 ## Usage
 
-- You can visit my deployed [Portfolio here](https://mdeluca13.github.io/portfolio/).
+- You can visit my deployed [Portfolio here](https://mdeluca13.github.io/Portfolio/).
 - You can click on each menu item (About, Portfolio, Contact, and Resume) in the header and it will display the relevant section on the page.
 - You can also click on each link in the footer (GitHub, LinkedIn, hackerRank) and it will link you to my respective profiles on each site. 
 - You can click on the image of any project and it will open the deployed site.
