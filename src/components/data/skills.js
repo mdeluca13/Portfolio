@@ -94,7 +94,7 @@ const skills = [
     },
     {
         id: 24,
-        skill: 'Amazon Web Services (AWS)',
+        skill: 'AWS',
     },
     {
         id: 25,
