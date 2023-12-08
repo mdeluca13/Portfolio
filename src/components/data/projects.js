@@ -1,5 +1,5 @@
 // Importing project images
-import techBlog from '../../assets/images/tech-blog.jpg';
+import pythonNewsfeed from '../../assets/images/python-newsfeed.jpg';
 import codingEmpireConference from '../../assets/images/coding-empire-conference.jpg';
 import textEditor from '../../assets/images/text-editor.jpg';
 import socialNetworkAPI from '../../assets/images/social-network-api.jpg';
@@ -19,22 +19,22 @@ const projects = [
     },
     {
         id: 2,
-        title: 'Tech Blog',
-        deployed: 'https://mdeluca-tech-blog.herokuapp.com/',
-        github: 'https://github.com/mdeluca13/tech-blog',
-        image: techBlog,
+        title: 'Python Newsfeed',
+        deployed: 'https://mdeluca-python-newsfeed-ff90091350ec.herokuapp.com/',
+        github: 'https://github.com/mdeluca13/python-newsfeed',
+        image: pythonNewsfeed,
     },
     {
         id: 3,
         title: 'Coding Empire Conference',
-        deployed: 'https://coding-empire-conference.herokuapp.com/',
+        deployed: 'https://github.com/mdeluca13/coding-empire-conference',
         github: 'https://github.com/mdeluca13/coding-empire-conference',
         image: codingEmpireConference,
     },
     {
         id: 4,
         title: 'Text Editor',
-        deployed: 'https://mdeluca-text-editor-54b25a117244.herokuapp.com/',
+        deployed: 'https://github.com/mdeluca13/text-editor',
         github: 'https://github.com/mdeluca13/text-editor',
         image: textEditor,
     },
