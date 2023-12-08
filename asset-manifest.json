@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d31a0560.css",
-    "main.js": "/Portfolio/static/js/main.f3f9f72d.js",
+    "main.js": "/Portfolio/static/js/main.4b42f457.js",
     "static/media/voltwheels.jpg": "/Portfolio/static/media/voltwheels.ba58455e1b998eafee3f.jpg",
     "static/media/header.jpg": "/Portfolio/static/media/header.bb11142f24d04acbf91a.jpg",
     "static/media/social-network-api.jpg": "/Portfolio/static/media/social-network-api.f4bbe28d4ada8419efd4.jpg",
@@ -9,17 +9,17 @@
     "static/media/employee-tracker.jpg": "/Portfolio/static/media/employee-tracker.33d2de81a06da4fdda15.jpg",
     "static/media/coding-empire-conference.jpg": "/Portfolio/static/media/coding-empire-conference.2aec79ef13779a8c0c4e.jpg",
     "static/media/weather-dashboard.jpg": "/Portfolio/static/media/weather-dashboard.af781a4ad645c3ba0dc9.jpg",
-    "static/media/tech-blog.jpg": "/Portfolio/static/media/tech-blog.b71a66bfe54fe8dff0b9.jpg",
-    "static/media/DeLucaResume.pdf": "/Portfolio/static/media/DeLucaResume.7322c506879e8c020a16.pdf",
+    "static/media/python-newsfeed.jpg": "/Portfolio/static/media/python-newsfeed.75e4054a529421ed9be4.jpg",
+    "static/media/DeLucaResume.pdf": "/Portfolio/static/media/DeLucaResume.f49edbe3634aad53026e.pdf",
     "static/media/text-editor.jpg": "/Portfolio/static/media/text-editor.d6f7227bc9c2c6a77671.jpg",
     "static/media/Megan.jpg": "/Portfolio/static/media/Megan.da2840456d1334249ad7.jpg",
     "static/media/github.svg": "/Portfolio/static/media/github.ebd452bf402237ef25876cdcac686676.svg",
     "index.html": "/Portfolio/index.html",
     "main.d31a0560.css.map": "/Portfolio/static/css/main.d31a0560.css.map",
-    "main.f3f9f72d.js.map": "/Portfolio/static/js/main.f3f9f72d.js.map"
+    "main.4b42f457.js.map": "/Portfolio/static/js/main.4b42f457.js.map"
   },
   "entrypoints": [
     "static/css/main.d31a0560.css",
-    "static/js/main.f3f9f72d.js"
+    "static/js/main.4b42f457.js"
   ]
 }
