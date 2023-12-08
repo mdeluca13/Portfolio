@@ -90,22 +90,30 @@ const skills = [
     },
     {
         id: 23,
-        skill: 'GitHub',
+        skill: 'Flask',
     },
     {
         id: 24,
-        skill: 'Heroku',
+        skill: 'Amazon Web Services (AWS)',
     },
     {
         id: 25,
-        skill: 'Visual Studio Code',
+        skill: 'GitHub',
     },
     {
         id: 26,
-        skill: 'Microsoft Suite',
+        skill: 'Heroku',
     },
     {
         id: 27,
+        skill: 'Visual Studio Code',
+    },
+    {
+        id: 28,
+        skill: 'Microsoft Suite',
+    },
+    {
+        id: 29,
         skill: 'Google Suite',
     },
 ];
